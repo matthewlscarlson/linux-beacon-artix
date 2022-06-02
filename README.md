@@ -6,7 +6,7 @@ The patch is basically [mikezackles's](https://github.com/mikezackles/linux-beac
 But that repository is not always updated, so I created my own to be updated at my discretion. It uses the namesake of Artix, but Arch and Artix use virtually (or even exactly) the same kernel, as far as I am aware.
 
 ## Usage
-First, create a file (e.g., in /etc/modprobe.d/wifi-fix.conf) with this line:
+First, create a file (e.g., in /etc/modprobe.d/wifi-fix.conf) containing this line:
 
 ```
 options iwlwifi beacon_timeout=256
@@ -14,7 +14,7 @@ options iwlwifi beacon_timeout=256
 
 The number 256 is the number of beacons that must be missed before the driver disconnects.
 
-Second, either tediously build the packages or download prebuilt versions of them.
+Second, either tediously build the packages yourself or download prebuilt versions of them.
 
 To install the prebuilt packages, navigate to [https://github.com/mlscarlson/linux-beacon-artix/releases](https://github.com/mlscarlson/linux-beacon-artix/releases) and download the two .pkg.tar.zst files associated with the most recent release.
 
