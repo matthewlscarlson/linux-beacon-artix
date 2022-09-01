@@ -16,7 +16,7 @@ The number 256 is the number of beacons that must be missed before the driver di
 
 Second, either tediously build the packages yourself or download prebuilt versions of them.
 
-To install the prebuilt packages, navigate to [https://github.com/mlscarlson/linux-beacon-artix/releases](https://github.com/mlscarlson/linux-beacon-artix/releases) and download the two .pkg.tar.zst files associated with the most recent release.
+To install the prebuilt packages, navigate to [https://github.com/matthewlscarlson/linux-beacon-artix/releases](https://github.com/matthewlscarlson/linux-beacon-artix/releases) and download the two .pkg.tar.zst files associated with the most recent release.
 
 **It would probably be a wise idea to back up your current kernel before proceeding.**
 
